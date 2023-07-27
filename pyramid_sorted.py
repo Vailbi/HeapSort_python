@@ -36,9 +36,9 @@ def heapSort(arr):
         arr[i], arr[0] = arr[0], arr[i] # свап
         heapify(arr, i, 0)
 
-# Управляющий код для тестирования
+# Проверка
 arr = [ 12, 11, 13, 5, 6, 7]
 heapSort(arr)
-n = len(arr)
+
 print ("Sorted!")
 print(arr)
